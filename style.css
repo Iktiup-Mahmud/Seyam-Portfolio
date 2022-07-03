@@ -1,0 +1,82 @@
+body{
+    font-family: 'Arima', cursive;
+    margin: 0;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+span{
+    color: orange;
+    font-size: 60px;
+}
+.button-fb{
+    height: 50px;
+    width: 120px;
+    color: aliceblue;
+    background: linear-gradient(45deg,lightsalmon,tomato);
+    font-weight: 700;
+    border-radius: 6px;
+    border-style: none;
+    margin: 10px;
+}
+.flex-container{
+    display: flex;
+    text-align: justify;
+    padding-top: 4%;
+}
+.half-width{
+    width: 50%;
+    padding-left: 4%;
+}
+.half-width img {
+    width: 100%;
+}
+#top-banner{
+    background-image: url(img/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+#top-padding{
+    padding-top: 3%;
+}
+#mid-banner{
+    background-image: url(img/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.exp-color{
+    color: rgb(255, 157, 0);
+}
+#last{
+    background-image: url(img/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#box-frist{
+    border-left: 10px solid orange;
+    box-shadow: 10px -10px 15px gray;
+    border-radius: 20px;
+    width: 40%;
+    margin-left: 7%;
+    margin-bottom: 6%;
+    margin-right: 5%;
+    padding: 3%;
+}
+#box-last{
+    border-left: 10px solid rgb(86, 125, 253);
+    box-shadow: 10px -10px 15px gray;
+    border-radius: 20px;
+    width: 40%;
+    margin-left: 5%;
+    margin-bottom: 6%;
+    margin-right: 7%;
+    padding: 3%;
+}
+footer p{
+    text-align: center;
+}
+
